@@ -1,6 +1,7 @@
-package edu.upc.dsa.minim;
+package edu.upc.dsa;
 
 import io.swagger.jaxrs.config.BeanConfig;
+import io.swagger.jersey.listing.ApiListingResourceJSON;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.grizzly.http.server.StaticHttpHandler;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
@@ -67,4 +68,3 @@ public class Main {
         server.stop();
     }
 }
-
